@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAS</title>
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <div id="centralizar">
+
+        <img src="pingu.png" alt="Como eu sou" style="width:330px;height:200px;">
+
+        <br><br>
+
+    </div>
+
+    <div class="menu">
+
+        <button class="botao">
+            Minhas opiniões sobre
+        </button>
+
+        <div class="opcoes">
+            <a href="public/anime.html">Animes</a>
+            <a href="public/filme.html">Filmes</a>
+            <a href="public/jogo.html">Jogos</a>
+        </div>
+
+    </div>
+
+    <script>
+
+        const botao = document.querySelector(".botao");
+        const opcoes = document.querySelector(".opcoes");
+
+        botao.addEventListener("click", () => {
+
+            if(opcoes.style.display === "block"){
+                opcoes.style.display = "none";
+            }
+            else{
+                opcoes.style.display = "block";
+            }
+
+        });
+
+    </script>
+
+</body>
+
+</html>

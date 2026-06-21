@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: 300px;
+}
+
+body {
+    background-color: rgb(251, 245, 228);
+}

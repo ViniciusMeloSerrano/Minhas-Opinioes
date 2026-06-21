@@ -1,0 +1,93 @@
+div#centralizar { /* Serve apenas para centralizar as coisas */
+    text-align: center;
+    margin: 80px;
+}
+
+
+
+body{ /* Cria as bordas que tem esse degrade */ 
+    margin: 0;
+    background-color: rgb(210, 210, 210);
+
+    border-top: 1px solid rgb(189, 111, 10);
+    border-left: 25px solid rgb(189, 111, 10);
+    border-right: 25px solid rgb(189, 111, 10);
+    border-bottom: 1px solid rgb(189, 111, 10);
+    
+    border-image: linear-gradient(to bottom, rgb(34, 33, 33), rgb(221, 152, 3)) 1;
+
+    min-height: 100vh;
+}
+
+button { /*  */
+    
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: rgb(199, 132, 9);
+    padding: 20px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0px 10px;
+    cursor: pointer;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: -60px;
+}
+
+.botao{
+    background-color: black;
+    color: orange;
+
+    font-size: 30px;
+    font-style: italic;
+
+    width: 400px;
+    padding: 30px;
+
+    border: none;
+    border-radius: 25px;
+
+    cursor: pointer;
+}
+
+.opcoes{
+    display: none;
+
+    width: 300px;
+
+    background-color: rgb(15,15,15);
+
+    border-radius: 10px 10px 15px 15px;
+
+    margin-top: -3px;
+    padding-top: 0;
+    text-align: center;
+   
+}
+
+.opcoes a{
+    display: block;
+
+    color: orange;
+
+    text-decoration: none;
+
+    padding: 18px;
+
+    font-size: 22px;
+    border-radius: 10px 10px 15px 15px;
+    transition: 0,3s;
+}
+
+
+.opcoes a:hover{
+    background-color: rgb(40,40,40);
+}
