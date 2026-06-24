@@ -1,0 +1,27 @@
+/* Coisas utilizadas internacionalmente */
+
+.texto { /* Deixo o texto bonitinho na página */
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+    text-align: justify;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/* Todo esse esquema é para o texto ficar na direita*/
+.texto-do-lado-da-imagem { /* Serve para deixar o texto do lado de uma imagem*/
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.texto-do-lado-da-imagem img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.texto-do-lado-da-imagem p {
+    max-width: 600px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
