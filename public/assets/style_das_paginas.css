@@ -12,16 +12,26 @@
 .texto-do-lado-da-imagem { /* Serve para deixar o texto do lado de uma imagem*/
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
+    max-width: 800px;
+    margin: 40px auto;
 }
 
 .texto-do-lado-da-imagem img {
-    width: 200px;
+    width: 180px;
     height: auto;
-    border-radius: 10px;
+    flex-shrink: 0;
 }
 
 .texto-do-lado-da-imagem p {
-    max-width: 600px;
+    max-width: 500px;
+    line-height: 1.6;
+    text-align: justify;
 }
+
+/*.divisor {  Serve para separar uma parte da outra, 
+criando uma linha em cima deixei desabilidade aqui por que a cor depende de site para site
+        border-top: 2px solid #7a9b6e;
+        padding: 30px 0;
+    }*/
 /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
